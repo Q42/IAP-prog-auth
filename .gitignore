@@ -1,0 +1,33 @@
+# Build artifacts
+dist
+build
+generated/*
+
+#vs code
+.vscode/
+typings/
+
+# Logs
+logs
+*.log
+
+# Visual Studio Code Typings files (used for intellisense)
+typings
+.vscode/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# IDE generated files
+.idea
+.idea_modules
+*.iml
+
+#MAC OSx o so sad
+.DS_Store
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
