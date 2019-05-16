@@ -1,0 +1,38 @@
+{
+  "name": "iap-prog-auth",
+  "version": "1.0.0",
+  "description": "Programmatic Authentication for Google IAP",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/ && tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Twijgjes@github.com/Q42/IAP-prog-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "openid",
+    "jwt",
+    "iap",
+    "google"
+  ],
+  "author": "Q42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Q42/IAP-prog-auth/issues"
+  },
+  "homepage": "https://github.com/Q42/IAP-prog-auth#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/request": "^2.48.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.0"
+  }
+}
