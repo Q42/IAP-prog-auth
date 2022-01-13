@@ -1,5 +1,6 @@
 # IAP-prog-auth
-Google Identity Aware Proxy Programmatic Authentication
+Google Identity Aware Proxy Programmatic Authentication.
+Accompanying code for the article on https://engineering.q42.nl/google-identity-aware-proxy/
 
 # How to
 #### Programmatic authentication for Google Identity Aware Proxy
